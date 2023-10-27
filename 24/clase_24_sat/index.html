@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Forumario SAT</title>
+</head>
+
+
+<!---required-->
+<body>
+    <h1>Formulario SAT</h1>
+
+    <form action="declarar" id="contact_form" action="#" class="declara">
+
+        <ul> 
+            <!---agregar datos-->
+            <li>
+                <span class="required notification">Agregue sus datos</span>
+            </li>
+                <!---rfc-->
+            <li>
+                <label for="rfc">RFC</label>
+                <input type="text" name="rfc" pattern="[A - Za-z]{10,}" maxlength="13" required>
+            </li>
+              <!---MES-->
+            <li>
+                <label for="periodo">Mes</label>
+                <select name="periodo" required>
+                    <option value="">opci&oacute;n</option>
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+
+                </select>
+            </li>
+              <!---DIA-->
+            <li>
+                <label for="fecha">¿Qu&eacute; d&iacute;a es hoy?</label>
+                <input  type="date" name="fecha" min="2022-10-25" max="2023-10-25" value="<?php echo('Y-M-D');?>">
+            </li>
+
+            <li>
+                <label for="rfc">Nombre</label>
+                <input placeholder="maximo 60" type="text" name="rfc" pattern="[A - Za-z]{10,}" maxlength="30" required>
+                <!---max 60-->
+            </li>
+            <li>
+                <label for="rfc">Tel</label>
+                <input placeholder="" type="tel" name="telefono" pattern="[1 - 10a-z]{10,}" maxlength="11" required>
+                  <!---max 60-->
+            </li>
+            <li>
+                <label for="rfc">Correo</label>
+                <input type="email" name="email" pattern="@gma" maxlength="255" required>
+                  <!---max 60-->
+            </li>
+
+            <li>
+                <button class="submit" type="submit">Enviar</button>
+            </li>
+
+
+
+
+
+
+
+        </ul>
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+///loginn
+
+registro:
+controlador
+
+
+
+loader:
+iniciarsesion
+conexion
+inico / cerrarsesion
+
+-----------------------------------
+
+controlador
+controlador_2
+datos
+index - copia
+index.php
+registro(1)
+regitro
+
+loader:
+cerrarsesion
+cerrarssesion
+conexion
+iniciarsesion
+inicio
+logearte

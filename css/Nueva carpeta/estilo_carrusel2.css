@@ -1,0 +1,43 @@
+#carrucel2{
+    overflow: hidden;
+}
+
+#carrucel2{
+    position: relative;
+    width: 800%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#carrucel2 figure img{
+    width: 12.5%;
+    float: left;
+}
+
+@keyframes slider{
+    0% {left:0}
+    12% {left:0}
+
+    13% {left: -100%}
+    24%{left: -100%}
+
+    25%{left: -200%}
+    36%{left: -200%}
+
+    37%{left: -300%}
+    48%{left: -300%}
+
+    49%{left: -400%}
+    60%{left: -400%}
+
+    61%{left: -500%}
+    72%{left: -500%}
+
+    73%{left: -600%}
+    84%{left: -600%}
+
+    85%{left: -700%}
+    100%{left: -700%}
+   
+}
